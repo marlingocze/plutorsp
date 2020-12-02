@@ -1,0 +1,8 @@
+Bussiness Canvas
+Definovat produkt
+Vymyšlené business procesy (pøidání èlánku, autor x redaktor x ètenáø)
+Návrh infrastruktury
+Rozplánování projektu ve Scrumdesk
+Máme Github
+Demo verze
+Budou se dále pøidávat další
