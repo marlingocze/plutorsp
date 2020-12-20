@@ -1,0 +1,8 @@
+Aplikace je dostupná na všech prohlížeèích
+Unit testy
+Akceptaèní testování
+Automatizované nasazení aplikace
+Kód aplikace prošel code review
+Odezva aplikace je pøijatelná dle SLA
+Aplikace splòuje Owasp (bezpeènostní certifikaci)
+Budou se dále pøidávat další
