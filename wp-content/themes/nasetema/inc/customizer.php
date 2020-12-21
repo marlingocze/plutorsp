@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage pluto
- * @since pluto
+ * @since pluto 1.0
  */
 
 /**
  * Sets up the WordPress core custom header and custom background features.
  *
- * @since pluto 
+ * @since pluto 1.0
  *
  * @see pluto_header_style()
  */
@@ -24,7 +24,7 @@ function pluto_custom_header_and_background() {
 		/**
 		 * Filters the arguments used when adding 'custom-background' support in pluto.
 		 *
-		 * @since Tpluto
+		 * @since pluto 1.0
 		 *
 		 * @param array $args {
 		 *     An array of custom-background support arguments.
@@ -45,7 +45,7 @@ function pluto_custom_header_and_background() {
 		/**
 		 * Filters the arguments used when adding 'custom-header' support in pluto.
 		 *
-		 * @since pluto
+		 * @since pluto 1.0
 		 *
 		 * @param array $args {
 		 *     An array of custom-header support arguments.
@@ -78,7 +78,7 @@ if ( ! function_exists( 'pluto_header_style' ) ) :
 	 *
 	 * Create your own pluto_header_style() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @see pluto_custom_header_and_background().
 	 */
@@ -108,7 +108,7 @@ endif; // pluto_header_style()
 /**
  * Adds postMessage support for site title and description for the Customizer.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @param WP_Customize_Manager $wp_customize The Customizer object.
  */
@@ -250,7 +250,7 @@ add_action( 'customize_register', 'pluto_customize_register', 11 );
 /**
  * Render the site title for the selective refresh partial.
  *
- * @since pluto
+ * @since pluto 1.2
  *
  * @see pluto_customize_register()
  *
@@ -263,7 +263,7 @@ function pluto_customize_partial_blogname() {
 /**
  * Render the site tagline for the selective refresh partial.
  *
- * @since pluto
+ * @since pluto 1.2
  *
  * @see pluto_customize_register()
  *
@@ -285,7 +285,7 @@ function pluto_customize_partial_blogdescription() {
  * 4. Main Text Color.
  * 5. Secondary Text Color.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @return array An associative array of color scheme options.
  */
@@ -295,7 +295,8 @@ function pluto_get_color_schemes() {
 	 *
 	 * The default schemes include 'default', 'dark', 'gray', 'red', and 'yellow'.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
+	 *
 	 * @param array $schemes {
 	 *     Associative array of color schemes data.
 	 *
@@ -372,7 +373,7 @@ if ( ! function_exists( 'pluto_get_color_scheme' ) ) :
 	 *
 	 * Create your own pluto_get_color_scheme() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @return array An associative array of either the current or default color scheme HEX values.
 	 */
@@ -395,7 +396,7 @@ if ( ! function_exists( 'pluto_get_color_scheme_choices' ) ) :
 	 * Create your own pluto_get_color_scheme_choices() function to override
 	 * in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @return array Array of color schemes.
 	 */
@@ -419,7 +420,7 @@ if ( ! function_exists( 'pluto_sanitize_color_scheme' ) ) :
 	 * Create your own pluto_sanitize_color_scheme() function to override
 	 * in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @param string $value Color scheme name value.
 	 * @return string Color scheme name.
@@ -438,7 +439,7 @@ endif; // pluto_sanitize_color_scheme()
 /**
  * Enqueues front-end CSS for color scheme.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -471,7 +472,7 @@ function pluto_color_scheme_css() {
 
 	);
 
-	$color_scheme_css = pluto_gplutoet_color_scheme_css( $colors );
+	$color_scheme_css = pluto_get_color_scheme_css( $colors );
 
 	wp_add_inline_style( 'pluto-style', $color_scheme_css );
 }
@@ -482,7 +483,7 @@ add_action( 'wp_enqueue_scripts', 'pluto_color_scheme_css' );
  *
  * Passes color scheme data as colorScheme global.
  *
- * @since pluto
+ * @since pluto 1.0
  */
 function pluto_customize_control_js() {
 	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls', 'iris', 'underscore', 'wp-util' ), '20170530', true );
@@ -493,7 +494,7 @@ add_action( 'customize_controls_enqueue_scripts', 'pluto_customize_control_js' )
 /**
  * Binds JS handlers to make the Customizer preview reload changes asynchronously.
  *
- * @since pluto
+ * @since pluto 1.0
  */
 function pluto_customize_preview_js() {
 	wp_enqueue_script( 'pluto-customize-preview', get_template_directory_uri() . '/js/customize-preview.js', array( 'customize-preview' ), '20170530', true );
@@ -503,7 +504,7 @@ add_action( 'customize_preview_init', 'pluto_customize_preview_js' );
 /**
  * Returns CSS for the color schemes.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @param array $colors Color scheme colors.
  * @return string Color scheme CSS.
@@ -836,7 +837,7 @@ CSS;
  * The template generates the css dynamically for instant display in the
  * Customizer preview.
  *
- * @since pluto
+ * @since pluto 1.0
  */
 function pluto_color_scheme_css_template() {
 	$colors = array(
@@ -858,7 +859,7 @@ add_action( 'customize_controls_print_footer_scripts', 'pluto_color_scheme_css_t
 /**
  * Enqueues front-end CSS for the page background color.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -931,7 +932,7 @@ add_action( 'wp_enqueue_scripts', 'pluto_page_background_color_css', 11 );
 /**
  * Enqueues front-end CSS for the link color.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -1034,7 +1035,7 @@ add_action( 'wp_enqueue_scripts', 'pluto_link_color_css', 11 );
 /**
  * Enqueues front-end CSS for the main text color.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -1188,7 +1189,7 @@ add_action( 'wp_enqueue_scripts', 'pluto_main_text_color_css', 11 );
 /**
  * Enqueues front-end CSS for the secondary text color.
  *
- * @since pluto
+ * @since pluto 1.0
  *
  * @see wp_add_inline_style()
  */

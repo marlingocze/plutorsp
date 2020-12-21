@@ -1,14 +1,14 @@
 <?php
 /**
- * Pluto back compat functionality
+ * pluto back compat functionality
  *
  * Prevents pluto from running on WordPress versions prior to 4.4,
  * since this theme is not meant to be backward compatible beyond that and
  * relies on many newer functions and markup changes introduced in 4.4.
  *
  * @package WordPress
- * @subpackage Pluto
- * @since Pluto 1.0
+ * @subpackage pluto
+ * @since pluto 1.0
  */
 
 /**

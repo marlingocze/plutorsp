@@ -3,8 +3,8 @@
  * The template for displaying 404 pages (not found)
  *
  * @package WordPress
- * @subpackage Pluto
- * @since Pluto 1.0
+ * @subpackage pluto
+ * @since pluto 1.0
  */
 
 get_header(); ?>

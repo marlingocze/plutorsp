@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage pluto
- * @since  pluto 1.0
+ * @since pluto 1.0
  */
 ?>
 

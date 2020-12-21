@@ -5,8 +5,8 @@
  * Displays all of the head element and everything up until the "site-content" div.
  *
  * @package WordPress
- * @subpackage Pluto
- * @since Pluto 1.0
+ * @subpackage pluto
+ * @since pluto 1.0
  */
 
 ?><!DOCTYPE html>

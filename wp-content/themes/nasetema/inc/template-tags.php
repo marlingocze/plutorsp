@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage pluto
- * @since pluto
+ * @since pluto 1.0
  */
 
 if ( ! function_exists( 'pluto_entry_meta' ) ) :
@@ -15,7 +15,7 @@ if ( ! function_exists( 'pluto_entry_meta' ) ) :
 	 *
 	 * Create your own pluto_entry_meta() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 */
 	function pluto_entry_meta() {
 		if ( 'post' === get_post_type() ) {
@@ -62,7 +62,7 @@ if ( ! function_exists( 'pluto_entry_date' ) ) :
 	 *
 	 * Create your own pluto_entry_date() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 */
 	function pluto_entry_date() {
 		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
@@ -94,7 +94,7 @@ if ( ! function_exists( 'pluto_entry_taxonomies' ) ) :
 	 *
 	 * Create your own pluto_entry_taxonomies() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 */
 	function pluto_entry_taxonomies() {
 		$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'pluto' ) );
@@ -126,7 +126,7 @@ if ( ! function_exists( 'pluto_post_thumbnail' ) ) :
 	 *
 	 * Create your own pluto_post_thumbnail() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 */
 	function pluto_post_thumbnail() {
 		if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
@@ -159,7 +159,7 @@ if ( ! function_exists( 'pluto_excerpt' ) ) :
 	 *
 	 * Create your own pluto_excerpt() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @param string $class Optional. Class string of the div element. Defaults to 'entry-summary'.
 	 */
@@ -183,7 +183,7 @@ if ( ! function_exists( 'pluto_excerpt_more' ) && ! is_admin() ) :
 	 *
 	 * Create your own pluto_excerpt_more() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @return string 'Continue reading' link prepended with an ellipsis.
 	 */
@@ -205,7 +205,7 @@ if ( ! function_exists( 'pluto_categorized_blog' ) ) :
 	 *
 	 * Create your own pluto_categorized_blog() function to override in a child theme.
 	 *
-	 * @since pluto
+	 * @since pluto 1.0
 	 *
 	 * @return bool True if there is more than one category, false otherwise.
 	 */
@@ -240,7 +240,7 @@ endif;
 /**
  * Flushes out the transients used in pluto_categorized_blog().
  *
- * @since pluto
+ * @since pluto 1.0
  */
 function pluto_category_transient_flusher() {
 	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
@@ -258,7 +258,7 @@ if ( ! function_exists( 'pluto_the_custom_logo' ) ) :
 	 *
 	 * Does nothing if the custom logo is not available.
 	 *
-	 * @since pluto
+	 * @since pluto 1.2
 	 */
 	function pluto_the_custom_logo() {
 		if ( function_exists( 'the_custom_logo' ) ) {
@@ -273,13 +273,13 @@ if ( ! function_exists( 'wp_body_open' ) ) :
 	 *
 	 * Added for backward compatibility to support pre-5.2.0 WordPress versions.
 	 *
-	 * @since pluto
+	 * @since pluto 2.0
 	 */
 	function wp_body_open() {
 		/**
 		 * Triggered after the opening <body> tag.
 		 *
-		 * @since pluto
+		 * @since pluto 2.0
 		 */
 		do_action( 'wp_body_open' );
 	}
