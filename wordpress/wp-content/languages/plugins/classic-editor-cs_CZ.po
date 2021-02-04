@@ -1,0 +1,98 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-17 08:20:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:822
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Upravit (klasický editor)"
+
+#: classic-editor.php:815
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Upravit (blokový editor)"
+
+#: classic-editor.php:489
+msgid "Change settings"
+msgstr "Změny nastavení"
+
+#: classic-editor.php:476
+msgid "Default editor for all sites"
+msgstr "Výchozí editor pro všechny weby"
+
+#: classic-editor.php:472
+msgid "Editor Settings"
+msgstr "Nastavení editoru"
+
+#: classic-editor.php:456
+msgid "Default Editor"
+msgstr "Výchozí editor"
+
+#: classic-editor.php:856
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "Blokový editor"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "Klasický editor"
+
+#. translators: %s: post title
+#: classic-editor.php:817
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Upravit &#8222;%s&#8220; v blokovém editoru"
+
+#: classic-editor.php:657
+msgid "Switch to block editor"
+msgstr "Přepnout na blokový editor"
+
+#: classic-editor.php:681
+msgid "Switch to classic editor"
+msgstr "Přepnout na klasický editor"
+
+#: classic-editor.php:493
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Ve výchozím nastavení je blokový editor nahrazený klasickým editorem a uživatelé si je nemohou sami změnit."
+
+#: classic-editor.php:492
+msgid "Allow site admins to change settings"
+msgstr "Povolit administrátorům webů měnit nastavení"
+
+#: classic-editor.php:638
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:431
+msgid "No"
+msgstr "Ne"
+
+#: classic-editor.php:427
+msgid "Yes"
+msgstr "Ano"
+
+#: classic-editor.php:354
+msgid "Allow users to switch editors"
+msgstr "Povolit uživatelům přepínat mezi editory."
+
+#: classic-editor.php:353
+msgid "Default editor for all users"
+msgstr "Výchozí editor pro  všechny uživatele."
+
+#. translators: %s: post title
+#: classic-editor.php:824
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Upravit &#8222;%s&#8220; v klasickém editoru"
+
+#: classic-editor.php:700
+msgid "Settings"
+msgstr "Nastavení"

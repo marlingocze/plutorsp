@@ -1607,6 +1607,7 @@ blockquote:after,
 	max-width: 100%;
 	min-width: 0;
 	overflow: hidden;
+	background-color: #21759b;
 }
 
 .custom-logo-link {

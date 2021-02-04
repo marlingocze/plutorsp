@@ -1,0 +1,519 @@
+# Translation of Plugins - Post Views Counter - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Post Views Counter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-28 18:25:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Post Views Counter - Stable (latest release)\n"
+
+#: includes/settings.php:42
+msgid "Fast AJAX"
+msgstr "Rychlý AJAX"
+
+#: includes/settings.php:316
+msgid "Optionally try the Fast AJAX experimental method, usually 10+ times faster than Javascript or REST API."
+msgstr "Bez závazků vyzkoušejte experimentální metodu Rychlý AJAX, která je obvykle více než 10x rychlejší než Javascript nebo REST API."
+
+#: includes/settings.php:454
+msgid "Enable to prevent bypassing the counts interval (for e.g. using incognito browser window or by clearing cookies)."
+msgstr "Povolte, abyste předešli obcházení intervalu počítání (např. při používání anonymních oken nebo při vymazání cookies)."
+
+#: includes/settings.php:238
+msgid "Strict counts"
+msgstr "Striktní počítání"
+
+#: post-views-counter.php:535
+msgid "Are you sure you want to delete all existing data?"
+msgstr "Opravdu chcete odstranit všechna existující data?"
+
+#: includes/update.php:117
+msgid "Thank you! Datebase was succesfully updated."
+msgstr "Děkuji! Databáze byla úspěšně aktualizována."
+
+#: includes/update.php:76
+msgid "Run the Update"
+msgstr "Spusťte aktualizaci."
+
+#: includes/update.php:75
+msgid "<strong>Post Views Counter</strong> - this version requires a database update. Make sure to back up your database first."
+msgstr "<strong>Post Views Counter</strong> - tato verze vyžaduje aktualizaci databáze. Nezapomeňte nejprve zálohovat databázi."
+
+#: includes/settings.php:628
+msgid "Error occurred. All existing data were not deleted."
+msgstr "Vyskytla se chyba. Existující data nebyla smazána."
+
+#: includes/settings.php:626
+msgid "All existing data deleted succesfully."
+msgstr "Všechna existující data byla úspěšně smazána."
+
+#: includes/settings.php:468
+msgid "Delete ALL the existing post views data."
+msgstr "Smazat VŠECHNY existující data o zobrazení příspěvků."
+
+#: includes/settings.php:467
+msgid "Delete views"
+msgstr "Smazat zobrazení"
+
+#: includes/settings.php:465
+msgid "Override existing views data."
+msgstr "Přepsat existující data o počtu zobrazení."
+
+#: includes/settings.php:465
+msgid "Import views"
+msgstr "Importovat zobrazení"
+
+#: includes/settings.php:316
+msgid "Select the method of collecting post views data. If you are using any of the caching plugins select Javascript or REST API (if available)."
+msgstr "Vyberte způsob shromažďování zobrazení počtu příspěvků. Pokud používáte nějaký z cachovacích pluginů, vyberte Javascript nebo REST API (pokud je dostupné)."
+
+#: includes/settings.php:239
+msgid "Tools"
+msgstr "Nástroje"
+
+#: includes/settings.php:193
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Podívejte se na naše další <a href=\"%s\" target=\"_blank\">pluginy WordPress</a> ."
+
+#: includes/settings.php:192
+msgid "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
+msgstr "Blog a odkaz na plugin na <a href=\"%s\" target=\"_blank\">stránce pluginu</a>."
+
+#: includes/settings.php:191
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Ohodnoťte 5*</a> na WordPress.org"
+
+#: includes/settings.php:188
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Máte-li potíže s tímto pluginem, prostudujte si jeho <a href=\"%s\" target=\"_blank\">dokumentaci</a> nebo napište na <a href=\"%s\" target=\"_blank\">fórum podpory</a>"
+
+#: includes/settings.php:46
+msgid "REST API"
+msgstr "REST API"
+
+#: includes/dashboard.php:204
+msgid "Year"
+msgstr "Rok"
+
+#: includes/counter.php:226
+msgid "Post type excluded."
+msgstr "Typ příspěvku byl vyloučen."
+
+#: includes/columns.php:111 includes/counter.php:220
+msgid "Invalid post ID."
+msgstr "Neplatné ID příspěvku."
+
+#: includes/counter.php:212
+msgid "REST API method is disabled."
+msgstr "Metoda REST API je zakázána."
+
+#: includes/settings.php:233
+msgid "Count Interval"
+msgstr "Interval počítání"
+
+#: includes/settings.php:506
+msgid "Select page types where the views count will be displayed."
+msgstr "Vyberte typy stránek, kde se počet shlédnutí bude zobrazovat."
+
+#: includes/settings.php:247
+msgid "Page Type"
+msgstr "Typ stránky"
+
+#: includes/settings.php:248
+msgid "User Type"
+msgstr "Typ uživatele"
+
+#: includes/settings.php:246
+msgid "Post Type"
+msgstr "Typ příspěvku"
+
+#: includes/settings.php:98
+msgid "Search results"
+msgstr "Výsledky hledání"
+
+#: includes/settings.php:97
+msgid "Single pages"
+msgstr "Jednotlivé stránky"
+
+#: includes/settings.php:96
+msgid "Archives"
+msgstr "Archivy"
+
+#: includes/settings.php:95
+msgid "Home"
+msgstr "Hlavní"
+
+#: includes/dashboard.php:88 includes/dashboard.php:136
+#: includes/dashboard.php:139
+msgid "You do not have permission to access this page."
+msgstr "Nemáte oprávnění zobrazit tuto stránku."
+
+#: includes/dashboard.php:219 includes/dashboard.php:305
+msgid "Total Views"
+msgstr "Zobrazení celkem"
+
+#: includes/settings.php:412 includes/settings.php:586
+msgid "Use it to hide the post views counter from selected user roles."
+msgstr "Pomocí toho můžete skrýt počty shlédnutí před vybranými úrovněmi uživatelů"
+
+#: includes/settings.php:620
+msgid "There was no post views data to import."
+msgstr "Žádná data k importu pro shlédnutí příspěvků."
+
+#: includes/settings.php:83
+msgid "Display"
+msgstr "Zobrazit"
+
+#: includes/columns.php:153 includes/columns.php:212
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: includes/widgets.php:138
+msgid "Order"
+msgstr "Řazení"
+
+#: includes/settings.php:51
+msgid "days"
+msgstr "dní"
+
+#: includes/settings.php:50
+msgid "hours"
+msgstr "hodin"
+
+#: includes/settings.php:49
+msgid "minutes"
+msgstr "minut"
+
+#: includes/settings.php:53
+msgid "months"
+msgstr "měsíců"
+
+#: includes/settings.php:52
+msgid "weeks"
+msgstr "týdnů"
+
+#: includes/settings.php:54
+msgid "years"
+msgstr "let"
+
+#: includes/columns.php:203
+msgid "Edit"
+msgstr "Upravit"
+
+#: includes/widgets.php:114
+msgid "Title"
+msgstr "Název"
+
+#: includes/columns.php:211
+msgid "OK"
+msgstr "OK"
+
+#: includes/settings.php:77
+msgid "General"
+msgstr "Obecné"
+
+#: post-views-counter.php:613
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/settings.php:249
+msgid "Position"
+msgstr "Pozice"
+
+#: post-views-counter.php:589
+msgid "Support"
+msgstr "Podpora"
+
+#: includes/settings.php:432 includes/settings.php:438
+msgid "Remove"
+msgstr "Odstranit"
+
+#: includes/widgets.php:168
+msgid "Display post thumbnail?"
+msgstr "Zobrazit náhledový obrázek?"
+
+#: includes/widgets.php:171
+msgid "Thumbnail size"
+msgstr "Velikost náhledového obrázku"
+
+#: post-views-counter.php:534
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Jste si jistí, že se chcete vrátit do továrního nastavení?"
+
+#. Plugin URI of the plugin
+msgid "http://www.dfactory.eu/plugins/post-views-counter/"
+msgstr "http://www.dfactory.eu/plugins/post-views-counter/"
+
+#. Description of the plugin
+msgid "Post Views Counter allows you to display how many times a post, page or custom post type had been viewed in a simple, fast and reliable way."
+msgstr "Zapomeňte na WP-PostViews. Zobrazte kolikrát byl příspěvek, stránka nebo vlastní typ příspěvku zobrazen jednoduchou, rychlou a spolehlivou cestou."
+
+#. Author URI of the plugin
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#: includes/columns.php:48 includes/columns.php:151 includes/columns.php:194
+#: includes/columns.php:345 includes/columns.php:351 includes/columns.php:401
+#: includes/dashboard.php:31 includes/dashboard.php:187
+#: includes/dashboard.php:196 includes/dashboard.php:205
+#: includes/dashboard.php:291
+msgid "Post Views"
+msgstr "Počet zobrazení"
+
+#: includes/settings.php:40
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/settings.php:41
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/functions.php:476
+msgid "No Posts"
+msgstr "Žádné příspěvky"
+
+#: includes/columns.php:152 includes/columns.php:207
+msgid "Adjust the views count for this post."
+msgstr "Upravit počty zobrazení pro tento příspěvek."
+
+#: includes/cron.php:66
+msgid "Post Views Counter cache flush interval"
+msgstr "Interval vyprázdnění cache v Post Views Counter"
+
+#: includes/cron.php:61
+msgid "Post Views Counter reset daily counts interval"
+msgstr "Interval resetu počtu zobrazení v Post Views Counter"
+
+#: includes/settings.php:58
+msgid "robots"
+msgstr "robots"
+
+#: includes/settings.php:59
+msgid "logged in users"
+msgstr "přihlášení uživatelé"
+
+#: includes/settings.php:60
+msgid "guests"
+msgstr "hosté"
+
+#: includes/settings.php:61
+msgid "selected user roles"
+msgstr "vybrané uživatelské role"
+
+#: includes/settings.php:65
+msgid "before the content"
+msgstr "před obsahem příspěvku"
+
+#: includes/settings.php:66
+msgid "after the content"
+msgstr "za obsahem příspěvku"
+
+#: includes/settings.php:67
+msgid "manual"
+msgstr "ručně"
+
+#: includes/settings.php:71
+msgid "icon"
+msgstr "ikona"
+
+#: includes/settings.php:72
+msgid "label"
+msgstr "popisek"
+
+#. Plugin Name of the plugin
+#: includes/settings.php:160 includes/settings.php:173
+#: includes/settings.php:185
+msgid "Post Views Counter"
+msgstr "Post Views Counter"
+
+#: includes/settings.php:187
+msgid "Need support?"
+msgstr "Potřebujete pomoci?"
+
+#: includes/settings.php:190
+msgid "Do you like this plugin?"
+msgstr "Líbí se vám tento plugin?"
+
+#: includes/settings.php:212
+msgid "Reset to defaults"
+msgstr "Tovární nastavení"
+
+#: includes/settings.php:228
+msgid "General settings"
+msgstr "Obecná nastavení"
+
+#: includes/settings.php:229
+msgid "Post Types Count"
+msgstr "Post Types Count"
+
+#: includes/settings.php:230
+msgid "Counter Mode"
+msgstr "Počítadlo"
+
+#: includes/settings.php:231
+msgid "Post Views Column"
+msgstr "Sloupec s počtem zobrazení"
+
+#: includes/settings.php:232
+msgid "Restrict Edit"
+msgstr "Omezit přístup"
+
+#: includes/widgets.php:118
+msgid "Post Types"
+msgstr "Typ příspěvku"
+
+#: includes/widgets.php:130
+msgid "Number of posts to show"
+msgstr "Počet příspěvků k zobrazení"
+
+#: includes/widgets.php:134
+msgid "No posts message"
+msgstr "Žádná zpráva k příspěvku"
+
+#: includes/settings.php:555
+msgid "Enter the post views icon class. Any of the <a href=\"%s\" target=\"_blank\">Dashicons</a> classes are available."
+msgstr "Zadejte třídu pro ikonu, k dispozici je libolná ikona z <a href=\"%s\" target=\"_blank\">Dashicons</a>."
+
+#: includes/settings.php:404 includes/settings.php:577
+msgid "Use it to hide the post views counter from selected type of visitors."
+msgstr "Skryjte počet zobrazení před vybraným typem návštěvníků."
+
+#: includes/settings.php:618
+msgid "Post views data imported succesfully."
+msgstr "Data k počtu zobrazení byla naimportována úspěšně."
+
+#: includes/settings.php:807
+msgid "General settings restored to defaults."
+msgstr "Obecná nastavení byla vrácena do továrního nastavení."
+
+#: includes/settings.php:811
+msgid "Display settings restored to defaults."
+msgstr "Zobrazení bylo vráceno do tovráního nastavení."
+
+#: includes/widgets.php:42 includes/widgets.php:48
+msgid "Most Viewed Posts"
+msgstr "Nejprohlíženější příspěvky"
+
+#: includes/widgets.php:43
+msgid "Displays a list of the most viewed posts"
+msgstr "Zobrazit seznam nejprohlíženějších příspěvků"
+
+#: includes/widgets.php:58
+msgid "No Posts found"
+msgstr "Žádný příspěvek nebyl nalezen"
+
+#: includes/widgets.php:62
+msgid "Ascending"
+msgstr "Vzestupně"
+
+#: includes/widgets.php:63
+msgid "Descending"
+msgstr "Sestupně"
+
+#: includes/settings.php:326
+msgid "Enable to display post views count column for each of the selected post types."
+msgstr "Povolit zobrazení sloupce s počtem shlédnutí pro každý z vybraný typ příspěvku."
+
+#: includes/settings.php:346
+msgid "Enter the time between single user visit count."
+msgstr "Zadejte čas, který musí být mezi započítáním přístupu stejného uživatele."
+
+#: includes/settings.php:366
+msgid "Delete single day post views data older than specified above. Enter 0 (number zero) if you want to preserve your data regardless of its age."
+msgstr "Smazat počty denního zobrazení starší než uvedeno výše. Zadejte 0 (číslo nula), pokud chcete zachovat data bez ohledu na jejich stáří."
+
+#: includes/settings.php:386
+msgid "How often to flush cached view counts from the object cache into the database. This feature is used only if a persistent object cache is detected and the interval is greater than 0 (number zero). When used, view counts will be collected and stored in the object cache instead of the database and will then be asynchronously flushed to the database according to the specified interval.<br /><strong>Notice:</strong> Potential data loss may occur if the object cache is cleared/unavailable for the duration of the interval."
+msgstr "Jak často vyčistit cache počtu zobrazení do databáze. Tato funkce je používaná pouze v případě, že objektová cache existuje a interval je větší než 0 (číslo nula). Pokud je aktivován, počty zobrazení budou shromažďovány a ukládány v objektové cache místo databáze a budou asynchrinně ukládány do databáze podle stanoveného intervalu. <br /><strong>Upozornění:</strong> Může dojít ke ztrátě dat, pokud je objektová cache vyčištěna/nedostupná v době, kdy dochází k zápisu do databáze."
+
+#: includes/settings.php:443
+msgid "Add new"
+msgstr "Přidat nový"
+
+#: includes/settings.php:443
+msgid "Add my current IP"
+msgstr "Přidat současnou IP adresu"
+
+#: includes/settings.php:444
+msgid "Enter the IP addresses to be excluded from post views count."
+msgstr "Přidat IP adresy, které budou vyjmuty z počítání zobrazení."
+
+#: includes/settings.php:466
+msgid "Import post views data from WP-PostViews plugin."
+msgstr "Ipmortovat počty zobrazení z WP-PostViews pluginu."
+
+#: includes/settings.php:479
+msgid "Enable to restrict post views editing to admins only."
+msgstr "Povolit úpravy počtu pouze administrátorům."
+
+#: includes/settings.php:489
+msgid "Enable to delete all plugin data on deactivation."
+msgstr "Povolit smazání veškerých dat uložených pluginem při jeho deaktivaci."
+
+#: includes/settings.php:525
+msgid "Select where would you like to display the post views counter. Use [post-views] shortcode for manual display."
+msgstr "Vyberte si, kde budou zobrazováno počítadlo shlédnutí. Použijte [post-views] shortkode pro ruční zobrazení."
+
+#: includes/settings.php:544
+msgid "Choose how to display the post views counter."
+msgstr "Vyberte, jak se bude počítadlo zobrazovat."
+
+#: includes/settings.php:234
+msgid "Reset Data Interval"
+msgstr "Resetovat data interval"
+
+#: includes/settings.php:235
+msgid "Flush Object Cache Interval"
+msgstr "Vysypat object cache interval"
+
+#: includes/settings.php:237
+msgid "Exclude IPs"
+msgstr "Nepočítat IP adresy"
+
+#: includes/settings.php:236
+msgid "Exclude Visitors"
+msgstr "Nepočítat návštěvníky"
+
+#: includes/settings.php:240
+msgid "Deactivation"
+msgstr "Deaktivace"
+
+#: includes/settings.php:244
+msgid "Display settings"
+msgstr "Nastavení zobrazení"
+
+#: includes/settings.php:245
+msgid "Post Views Label"
+msgstr "Popisek počtu zobrazení"
+
+#: includes/settings.php:250 includes/widgets.php:150
+msgid "Display Style"
+msgstr "Styl zobrazení"
+
+#: includes/settings.php:251
+msgid "Icon Class"
+msgstr "Třída ikony"
+
+#: includes/settings.php:262
+msgid "Enter the label for the post views counter field."
+msgstr "Zadejte popisek zobrazený u počítadla."
+
+#: includes/settings.php:280
+msgid "Select post types for which post views will be counted."
+msgstr "Vyberte typy příspěvků, u kterých bude počet zobrazení počítán."
+
+#: includes/settings.php:297
+msgid "Select post types for which the views count will be displayed."
+msgstr "Vyberte typy příspěvků, pro které bude zobrazeno počítadlo zobrazení."
+
+#: includes/widgets.php:164
+msgid "Display post excerpt?"
+msgstr "Zobrazit náhled příspěvku?"
+
+#: includes/widgets.php:162
+msgid "Display post views?"
+msgstr "Zobrazit počet zobrazení příspěvku?"
